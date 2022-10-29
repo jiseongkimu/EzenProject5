@@ -1,3 +1,32 @@
 #slide_image {
-	height: 450px;
+	height: 600px;
+}
+
+.cover {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_banner{
+	width : 600px;
+	height : 300px;
+	line-height: 300px;
+	margin-bottom : 50px;
+}
+
+.col{
+	margin-bottom : 200px;
+}
+
+.banner{
+	height : 300px;
+	width : 600px;
+}
+
+.carousel{
+	margin-bottom : 100px;
+}
+
+.card-text{
+	font-size : 13px;
 }

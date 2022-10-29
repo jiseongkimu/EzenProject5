@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<c:import url="/WEB-INF/views/include/header_user.jsp"/>
+<c:import url="/WEB-INF/views/include/header_login.jsp" />
 
 <div class="container" style="margin-top:100px">
 	<div class="row">
