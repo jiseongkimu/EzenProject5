@@ -7,16 +7,14 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<!-- head_main.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head_main.jsp" />
 </head>
 <body>
-	<div class="pddt_info_area" id="pddt_info_area">
+	<div style="margin-top : 150px;">
 		<h2>배송정보</h2>
 		<p class="txt">
 			<span>기본배송</span>결제 마감시간 전에 입금하시면 당일 발송됩니다.
 		</p>
-		<table class="table" cellpadding="0" cellspacing="0">
+		<table class="table" cellpadding="0" cellspacing="0" style="margin-bottom : 100px;">
 			<colgroup>
 				<col width="">
 				<col width="26.6%">
@@ -68,7 +66,7 @@
 		<p class="txt" style="margin-top: 60px;">
 			<span>빠른배송</span>결제 마감시간 전에 입금하시면 당일 받으실 수 있습니다.
 		</p>
-		<table class="table" cellpadding="0" cellspacing="0">
+		<table class="table" cellpadding="0" cellspacing="0" style="margin-bottom : 100px;">
 			<colgroup>
 				<col width="">
 				<col width="20%">
@@ -131,7 +129,7 @@
 				style="margin: 6px 0 0 8px;"><a
 				href="../cscenter/asRegulationsL.htm" target="_blank">상세설명 보기</a></span>
 		</h2>
-		<table class="table" cellpadding="0" cellspacing="0">
+		<table class="table" cellpadding="0" cellspacing="0" style="margin-bottom : 100px;">
 			<colgroup>
 				<col width="30%">
 				<col width="">

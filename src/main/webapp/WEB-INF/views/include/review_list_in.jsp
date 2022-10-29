@@ -2,19 +2,18 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:set var='root' value="${pageContext.request.contextPath }/" />
+<!-- 하위폴더 상관없이 메인으로 가는 절대경로용 -->
+
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
 </head>
 <body>
-
-
-	<!-- 헤더 -->
-	<c:import url="/WEB-INF/views/include/header_user.jsp" />
-
-	<div class="container" style="margin-top: 50px;">
+	
+	<div class="product_detail_review">
 		<table class="table" cellpadding="0" cellspacing="0">
 			<colgroup>
 				<col width="5%">
@@ -131,6 +130,7 @@
 				</tr>
 				<tr class="reviewDetailTr" id="reviewDetail_6241822"
 					style="display: none;">
+					<!--제목 누르면 내용 보이게 해주세요-->
 					<td></td>
 					<td></td>
 					<td colspan="3" class="align_l con">너무 멋있네요~!!! 듬직 합니다~!!!ㅎㅎㅎ
@@ -150,22 +150,9 @@
 				</tr>
 			</tbody>
 		</table>
-		<div>
-			<form action="" method="get">
-			<div id="support_search" class="input-group mb-3">
-				<input type="text" class="form-control"
-					aria-describedby="button-addon2">
-				<input type="submit" class="btn btn-primary" value="검색">
-			</div>
-			</form>
-			<a href="${root }support/write">
-				<button type="button" class="btn btn-primary">글쓰기</button>
-			</a>
-		</div>
-		<!-- 문의 게시판 끝-->
-	</div>
-	<!-- 푸터 -->
-	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
+		<!-- 리뷰 게시판 끝-->
+	
 
+	</div>
 </body>
 </html>
