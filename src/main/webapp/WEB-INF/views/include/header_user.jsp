@@ -54,11 +54,15 @@
 					<form action="">
 						<input class="search_input" type="text" name="" id=""
 							placeholder="검색어 입력...">
-						<!-- 버튼
+					
 						<button type="submit">
 							 <span class="fa fa-search"></span> 
 						</button>
-						 -->
+						
+						<a href="${root }product/list">
+							 <span class="fa fa-search"></span> 
+						</a>
+						
 					</form>
 				</div>
 				<!-- / search box -->

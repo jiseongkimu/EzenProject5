@@ -7,15 +7,22 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<c:import url="/WEB-INF/views/include/head_main.jsp" />
 </head>
 <body>
 
 
 	<!-- 헤더 -->
-	<c:import url="/WEB-INF/views/include/header.jsp" />
+	<c:import url="/WEB-INF/views/include/header_user.jsp" />
 	<h1>cart_list.jsp</h1>
+
+	<div class="container">
+		
+
+
+	</div>
+
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
-
 </body>
 </html>

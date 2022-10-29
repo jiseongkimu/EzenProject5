@@ -36,8 +36,9 @@
 
 				<!-- 1번 슬라이드 -->
 				<div class="carousel-item active" data-bs-interval="4000">
-					<a href="${root }product/info"> <img src="image/slide_1.jpg"
-						class="d-block w-100" id="slide_image">
+					<a href="${root }product/info"> <img
+						src="${root}image/slide_1.jpg" class="d-block w-100"
+						id="slide_image">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>First slide label</h5>
 							<p>Some representative placeholder content for the first
@@ -47,8 +48,9 @@
 				</div>
 				<!-- 2번 슬라이드 -->
 				<div class="carousel-item" data-bs-interval="4000">
-					<a href="${root }product/info"> <img src="image/slide_2.jpg"
-						class="d-block w-100" id="slide_image">
+					<a href="${root }product/info"> <img
+						src="${root}image/slide_2.jpg" class="d-block w-100"
+						id="slide_image">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>Second slide label</h5>
 							<p>Some representative placeholder content for the first
@@ -58,8 +60,9 @@
 				</div>
 				<!-- 2번 슬라이드 -->
 				<div class="carousel-item">
-					<a href="${root }product/info"> <img src="image/slide_3.jpg"
-						class="d-block w-100" id="slide_image">
+					<a href="${root }product/info"> <img
+						src="${root}image/slide_3.jpg" class="d-block w-100"
+						id="slide_image">
 						<div class="carousel-caption d-none d-md-block">
 							<h5>Third slide label</h5>
 							<p>Some representative placeholder content for the third
@@ -89,23 +92,25 @@
 		<div class="cover" style="text-align: center; margin-bottom: 100px;">
 			<div class="product_banner">
 				<a href="${root }product/info"><img class="banner"
-					src="image/slide_4.jpg"></a>
+					src="${root}image/slide_4.jpg"></a>
 			</div>
 			<div class="product_banner">
 				<a href="${root }product/info"><img class="banner"
-					src="image/slide_4.jpg"></a>
+					src="${root}image/slide_4.jpg"></a>
 			</div>
 		</div>
 
 		<!-- 수평 배너 -->
 		<div class="cover hor_banner row row-cols-1 row-cols-md-3 g-4"
 			style="margin-bottom: 100px;">
-			
+
 			<!-- 1 -->
-			<div class="card mb-3" style="width: 380px; height: 200px;">
+			<div class="card mb-3 border-light border-light"
+				style="width: 380px; height: 200px;">
 				<div class="row g-0">
 					<div class="col-md-6">
-						<img src="..." class="img-fluid rounded-start" alt="...">
+						<img id="177x177" src="${root}image/slide_1.jpg"
+							class="img-fluid rounded-start" alt="...">
 					</div>
 					<div class="col-md-6">
 						<div class="card-body">
@@ -123,10 +128,12 @@
 			</div>
 
 			<!-- 2 -->
-			<div class="card mb-3" style="width: 380px; height: 200px;">
+			<div class="card mb-3 border-light border-light"
+				style="width: 380px; height: 200px;">
 				<div class="row g-0">
 					<div class="col-md-6">
-						<a href="${root }product/info"> <img src="..."
+						<a href="${root }product/info"> <img
+							src="${root}image/slide_1.jpg" id="177x177"
 							class="img-fluid rounded-start" alt="...">
 						</a>
 					</div>
@@ -146,10 +153,12 @@
 
 			<!-- 3 -->
 
-			<div class="card mb-3" style="width: 380px; height: 200px;">
+			<div class="card mb-3 border-light border-light"
+				style="width: 380px; height: 200px;">
 				<div class="row g-0">
 					<div class="col-md-6">
-						<a href="${root }product/info"> <img src="..."
+						<a href="${root }product/info"> <img
+							src="${root}image/slide_1.jpg" id="177x177"
 							class="img-fluid rounded-start" alt="...">
 						</a>
 					</div>
@@ -168,10 +177,12 @@
 			</div>
 
 			<!-- 4 -->
-			<div class="card mb-3" style="width: 380px; height: 200px;">
+			<div class="card mb-3 border-light"
+				style="width: 380px; height: 200px;">
 				<div class="row g-0">
 					<div class="col-md-6">
-						<img src="..." class="img-fluid rounded-start" alt="...">
+						<img src="${root} image/slide_1.jpg" id="177x177"
+							class="img-fluid rounded-start" alt="...">
 					</div>
 					<div class="col-md-6">
 						<div class="card-body">
@@ -186,10 +197,12 @@
 				</div>
 			</div>
 			<!-- 5 -->
-			<div class="card mb-3" style="width: 380px; height: 200px;">
+			<div class="card mb-3 border-light"
+				style="width: 380px; height: 200px;">
 				<div class="row g-0">
 					<div class="col-md-6">
-						<img src="..." class="img-fluid rounded-start" alt="...">
+						<img src="${root}image/slide_1.jpg" id="177x177"
+							class="img-fluid rounded-start" alt="...">
 					</div>
 					<div class="col-md-6">
 						<div class="card-body">
@@ -203,10 +216,12 @@
 				</div>
 			</div>
 			<!-- 6 -->
-			<div class="card mb-3" style="width: 380px; height: 200px;">
+			<div class="card mb-3 border-light"
+				style="width: 380px; height: 200px;">
 				<div class="row g-0">
 					<div class="col-md-6">
-						<img src="..." class="img-fluid rounded-start" alt="...">
+						<img src="${root}image/slide_1.jpg" id="177x177"
+							class="img-fluid rounded-start" alt="...">
 					</div>
 					<div class="col-md-6">
 						<div class="card-body">
@@ -244,16 +259,18 @@
 			<div class="col">
 				<!-- 같은 높이가 필요한 경우에는, 카드에 .h-100 클래스를 추가
 				Sass 에 $card-height: 100%를 설정하면, 클래스 추가 없이 기본적(항상)으로 같은 높이를 사용할 수 있다. -->
-				<div class="card h-100">
-					<img src="image/main_list_product_1.jpg" class="card-img-top"
-						alt="...">
-					<div class="card-body">
-						<h5 class="card-title">
-							<a href="${root }product/info">슈퍼 울트라 cpu</a>
-						</h5>
-						<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+				<a href="${root }product/info">
+					<div class="card h-100 border-light">
+						<img src="image/main_list_product_1.jpg" class="card-img-top"
+							alt="...">
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="${root }product/info">슈퍼 울트라 cpu</a>
+							</h5>
+							<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 		<!-- 상품 목록 끝 -->
@@ -276,18 +293,18 @@
 
 			<!--  상품 -->
 			<div class="col mb-5">
-				<!-- 같은 높이가 필요한 경우에는, 카드에 .h-100 클래스를 추가
-				Sass 에 $card-height: 100%를 설정하면, 클래스 추가 없이 기본적(항상)으로 같은 높이를 사용할 수 있다. -->
-				<div class="card h-100">
-					<img src="image/main_list_product_1.jpg" class="card-img-top"
-						alt="...">
-					<div class="card-body">
-						<h5 class="card-title">
-							<a href="${root }product/info">슈퍼 울트라 cpu</a>
-						</h5>
-						<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+				<a href="${root }product/info">
+					<div class="card h-100 border-light">
+						<img src="image/main_list_product_1.jpg" class="card-img-top"
+							alt="...">
+						<div class="card-body">
+							<h5 class="card-title">
+								<a href="${root }product/info">슈퍼 울트라 cpu</a>
+							</h5>
+							<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+						</div>
 					</div>
-				</div>
+				</a>
 			</div>
 			<!-- 상품 끝 -->
 		</div>

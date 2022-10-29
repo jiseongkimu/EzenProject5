@@ -30,3 +30,66 @@
 .card-text{
 	font-size : 13px;
 }
+
+.product_title{
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size : 40px;
+	font-weight : bold;
+}
+
+.product_tag{
+	font-size : 18px;
+	color : #A6A6A6;
+}
+
+.test1{
+	width : 100%;
+	background-color : #A9A9F5;
+}
+
+.test2{
+	width : 50%;
+	height : 600px;
+	background-color : #2E64FE;
+}
+
+.test3{
+	width : 50%;
+	height : 600px;
+	background-color : #FFBF00;
+}
+
+#product_info_img{
+	width: 500px;
+  	height: 500px;
+  	object-fit: cover;
+}
+
+#177x177{
+	width: 180px;
+  	height: 200px;
+  	object-fit: cover;
+}
+
+.product_detail_out{
+	width: 100%;
+ 	text-align: center;
+}
+
+.product_detail_image{
+	margin-bottom : 250px;
+}
+
+.product_detail_table{
+	margin-bottom : 250px;
+}
+
+.product_detail_review{
+	margin-bottom : 250px;
+}
+
+#product_list_img{
+	margin-bottom : 10px;
+}
+
+
