@@ -12,8 +12,10 @@
 
 
 	<!-- 헤더 -->
-	<c:import url="/WEB-INF/views/include/header.jsp" />
-	<h1>support_list.jsp</h1>
+	<c:import url="/WEB-INF/views/include/header_user.jsp" />
+	<div class="container">
+		<h1>support_list.jsp</h1>
+	</div>
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
 

@@ -14,7 +14,6 @@
 
 	<!-- 헤더 -->
 	<c:import url="/WEB-INF/views/include/header_user.jsp" />
-	<h1>product_list.jsp</h1>
 
 	<div class="container">
 

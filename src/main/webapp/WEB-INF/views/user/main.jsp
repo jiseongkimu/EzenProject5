@@ -7,7 +7,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta >
 <title>미니 프로젝트</title>
 <!-- head_main.jsp <head> 설정 불러오기 -->
 <c:import url="/WEB-INF/views/include/head_main.jsp" />

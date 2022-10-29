@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<c:set var='root' value="${pageContext.request.contextPath }/"/>
 <!DOCTYPE html>
 <html>
 <head>
@@ -85,12 +86,12 @@
 				role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					CPU </a>
 				<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<li><h6 class="dropdown-header">cpu는 역시 인텔이죠?</h6></li>
-					<li><a class="dropdown-item" href="#">cpu1_1</a></li>
-					<li><a class="dropdown-item" href="#">cpu1_2</a></li>
-					<li><h6 class="dropdown-header">이젠 리사수의 시대</h6></li>
-					<li><a class="dropdown-item" href="#">cpu2_1</a></li>
-					<li><a class="dropdown-item" href="#">cpu2_2</a></li>
+					<li><h6 class="dropdown-header">cpu 제조사 1</h6></li>
+					<li><a class="dropdown-item" href="${root }product/list">cpu1_1</a></li>
+					<li><a class="dropdown-item" href="${root }product/list">cpu1_2</a></li>
+					<li><h6 class="dropdown-header">cpu 제조사 2</h6></li>
+					<li><a class="dropdown-item" href="${root }product/list">cpu2_1</a></li>
+					<li><a class="dropdown-item" href="${root }product/list">cpu2_2</a></li>
 				</ul></li>
 
 
@@ -100,12 +101,12 @@
 				role="button" data-bs-toggle="dropdown" aria-expanded="false">
 					메인보드 </a>
 				<ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-					<li><h6 class="dropdown-header">cpu는 역시 인텔이죠?</h6></li>
-					<li><a class="dropdown-item" href="#">cpu1_1</a></li>
-					<li><a class="dropdown-item" href="#">cpu1_2</a></li>
-					<li><h6 class="dropdown-header">이젠 리사수의 시대</h6></li>
-					<li><a class="dropdown-item" href="#">cpu2_1</a></li>
-					<li><a class="dropdown-item" href="#">cpu2_2</a></li>
+					<li><h6 class="dropdown-header">메인보드 제조사 1</h6></li>
+					<li><a class="dropdown-item" href="${root }product/list">메인보드1_1</a></li>
+					<li><a class="dropdown-item" href="${root }product/list">메인보드1_2</a></li>
+					<li><h6 class="dropdown-header">메인보드 제조사 2</h6></li>
+					<li><a class="dropdown-item" href="${root }product/list">메인보드2_1</a></li>
+					<li><a class="dropdown-item" href="${root }product/list">메인보드2_2</a></li>
 				</ul></li>
 
 			<!-- 버튼3 -->

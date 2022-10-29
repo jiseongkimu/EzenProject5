@@ -2,7 +2,6 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <c:set var='root' value="${pageContext.request.contextPath }/" />
-<!-- 하위폴더 상관없이 메인으로 가는 절대경로용 -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -264,6 +263,11 @@
 				
 				<!-- info area -->
 				<c:import url="/WEB-INF/views/include/info_area.jsp" />
+				
+				<div>
+					<button type="submit">장바구니에 넣기</button>
+					<button type="submit">구매하기</button>
+				</div>
 			</div>
 		</div>
 	</div>
