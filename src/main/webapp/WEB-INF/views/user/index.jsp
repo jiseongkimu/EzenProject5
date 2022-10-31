@@ -9,5 +9,6 @@
 <body>
 	<h1>Hello Spring MVC Java</h1>
 	<img src="image/icon-spring-framework.svg"/>
+	<!-- test -->
 </body>
 </html>
