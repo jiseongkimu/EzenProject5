@@ -13,7 +13,7 @@ public class BoardController {
 		return "user/board/board_main";
 	}
 	
-	@GetMapping("/read")
+	@GetMapping("/info")
 	public String read() {
 		return "user/board/board_info";
 	}
