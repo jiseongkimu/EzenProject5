@@ -16,7 +16,8 @@
 </head>
 <body>
 
-<c:import url="/WEB-INF/views/include/header_user.jsp"/>
+<c:import url="/WEB-INF/views/include/header_admin.jsp"/>
+
 <!-- 게시글 리스트 -->
 <div class="container" style="margin-top:100px">
 	<div class="card shadow">
@@ -34,70 +35,70 @@
 				<tbody>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
 					</tr>
 					<tr>
 						<td class="text-center d-none d-md-table-cell">10</td>
-						<td><a href='${root }board/read'>글 제목 입니다</a></td>
+						<td><a href='${root }board/info'>글 제목 입니다</a></td>
 						<td class="text-center d-none d-md-table-cell">홍길동</td>
 						<td class="text-center d-none d-md-table-cell">2018-12-12</td>
 						
@@ -164,6 +165,6 @@
 		</div>
 	</div>
 </div>
-<c:import url="/WEB-INF/views/include/footer_user.jsp"/>
+<c:import url="/WEB-INF/views/include/footer_admin.jsp"/>
 </body>
 </html>

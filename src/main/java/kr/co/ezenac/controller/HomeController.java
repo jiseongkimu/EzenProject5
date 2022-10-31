@@ -11,5 +11,7 @@ public class HomeController {
 	public String home() {
 		return "redirect:/main";
 	}
+	
+
 }
 
