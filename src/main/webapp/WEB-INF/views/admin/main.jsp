@@ -14,19 +14,195 @@
 </head>
 <body>
 
-	<!-- 메인 컨테이너 -->
-	<div class="container text-center">
+	<!-- 헤더 -->
+	<c:import url="/WEB-INF/views/include/header_admin.jsp" />
+
+	<!-- 게시판 미리보기 부분 -->
+	<div class="container" style="margin-top: 100px">
 		<div class="row">
-			<div class="col"><a href="${root}admin/client_list">회원 목록</a></div>
-			<div class="col"><a href="${root}admin/product_list">상품 관리</a></div>
-			<div class="col"><a href="${root}admin/order_list">주문 내역</a></div>
-			<div class="col"><a href="${root}admin/support_list">문의 내역</a></div>
+			<div class="col-lg-6" style="margin-top: 20px">
+				<div class="card shadow">
+					<div class="card-body">
+						<h4 class="card-title">회원 목록</h4>
+						<table class="table table-hover" id='board_list'>
+							<thead>
+								<tr>
+									<th class="text-center w-25">글번호</th>
+									<th>제목</th>
+									<th class="text-center w-25 d-none d-xl-table-cell">작성날짜</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='${root }board/info'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='${root }board/info'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='${root }board/info'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='${root }board/info'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='${root }board/info'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<a href="${root }board/main" class="btn btn-primary">더보기</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6" style="margin-top: 20px">
+				<div class="card shadow">
+					<div class="card-body">
+						<h4 class="card-title">상품 관리</h4>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th class="text-center w-25">글번호</th>
+									<th>제목</th>
+									<th class="text-center w-25 d-none d-xl-table-cell">작성날짜</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<a href="board_main.html" class="btn btn-primary">더보기</a>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-lg-6" style="margin-top: 20px">
+				<div class="card shadow">
+					<div class="card-body">
+						<h4 class="card-title">주문 내역</h4>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th class="text-center w-25">글번호</th>
+									<th>제목</th>
+									<th class="text-center w-25 d-none d-xl-table-cell">작성날짜</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<a href="board_main.html" class="btn btn-primary">더보기</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6" style="margin-top: 20px">
+				<div class="card shadow">
+					<div class="card-body">
+						<h4 class="card-title">문의 내역</h4>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th class="text-center w-25">글번호</th>
+									<th>제목</th>
+									<th class="text-center w-25 d-none d-xl-table-cell">작성날짜</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+								<tr>
+									<td class="text-center">5</td>
+									<th><a href='board_info.html'>제목입니다</a></th>
+									<td class="text-center d-none d-xl-table-cell">2018-12-12</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<a href="board_main.html" class="btn btn-primary">더보기</a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
-	<!-- 메인 컨테이너 끝 -->
-
-
-
 
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_admin.jsp" />

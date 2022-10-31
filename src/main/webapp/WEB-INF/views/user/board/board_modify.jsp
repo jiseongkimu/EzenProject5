@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<c:import url="/WEB-INF/views/include/header_user.jsp"/>
+<c:import url="/WEB-INF/views/include/header_admin.jsp"/>
 
 <div class="container" style="margin-top:100px">
 	<div class="row">
@@ -24,7 +24,7 @@
 		<div class="col-sm-6">
 			<div class="card shadow">
 				<div class="card-body">
-					<form action="${root }board/read" method="get">
+					<form action="${root }board/info" method="get">
 						<div class="form-group">
 							<label for="board_writer_name">작성자</label>
 							<input type="text" id="board_writer_name" name="board_writer_name" class="form-control" value="홍길동" disabled="disabled"/>
@@ -49,7 +49,7 @@
 						<div class="form-group">
 							<div class="text-right">
 								<button type="submit" class="btn btn-primary">수정완료</button>
-								<a href="${root }board/read" class="btn btn-info">취소</a>
+								<a href="${root }board/info" class="btn btn-info">취소</a>
 							</div>
 						</div>
 					</form>
@@ -60,7 +60,7 @@
 	</div>
 </div>
 
-<c:import url="/WEB-INF/views/include/footer_user.jsp"/>
+<c:import url="/WEB-INF/views/include/footer_admin.jsp"/>
 
 
 </body>

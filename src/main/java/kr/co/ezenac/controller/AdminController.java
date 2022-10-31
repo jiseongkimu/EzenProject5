@@ -75,7 +75,9 @@ public class AdminController {
 		return "admin/product/product_update";
 	}
 	
-	/* 문의 */
+	/* 
+	 * 문의
+	 *  */
 	@GetMapping("/support_list")
 	public String Support_list() {
 		return "admin/support/support_list";

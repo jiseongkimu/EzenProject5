@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<c:import url="/WEB-INF/views/include/footer_user.jsp"/>
+<c:import url="/WEB-INF/views/include/footer_admin.jsp"/>
 
 <div class="container" style="margin-top:100px">
 	<div class="row">
@@ -24,7 +24,7 @@
 		<div class="col-sm-6">
 			<div class="card shadow">
 				<div class="card-body">
-					<form action="${root }board/read" method="get">
+					<form action="${root }board/info" method="get">
 					<div class="form-group">
 						<label for="board_subject">제목</label>
 						<input type="text" id="board_subject" name="board_subject" class="form-control"/>
@@ -51,7 +51,7 @@
 	</div>
 </div>
 
-<c:import url="/WEB-INF/views/include/footer_user.jsp"/>
+<c:import url="/WEB-INF/views/include/footer_admin.jsp"/>
 
 </body>
 </html>
