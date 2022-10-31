@@ -7,6 +7,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.web.servlet.HandlerInterceptor;
 
+import kr.co.ezenac.beans.AdminBean;
 import kr.co.ezenac.beans.BoardInfoBean;
 import kr.co.ezenac.service.TopMenuService;
 
@@ -17,7 +18,7 @@ public class TopMenuInterceptor implements HandlerInterceptor {
 	private TopMenuService topMenuService;
 	
 	//자동 주입이 안되어 객체 생성 후 넣어준다.
-	public TopMenuInterceptor(TopMenuService topMenuService) {
+	public TopMenuInterceptor(TopMenuService topMenuService, AdminBean loginAdminBean) {
 		this.topMenuService = topMenuService;
 	}
 	

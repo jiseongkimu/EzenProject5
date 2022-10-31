@@ -9,7 +9,7 @@ public class AdminHomeController {
 	
 	@RequestMapping(value = "/admin", method = RequestMethod.GET)
 	public String home() {
-		return "redirect:/login";
+		return "redirect:/admin/login";
 	}
 	
 
