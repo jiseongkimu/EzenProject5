@@ -23,12 +23,6 @@
 				<a href="${root }user/login" class="nav-link">로그인</a>
 			</li>
 			<li class="nav-item">
-				<a href="${root }user/join" class="nav-link">회원가입</a>
-			</li>
-			<li class="nav-item">
-				<a href="${root }user/modify" class="nav-link">정보수정</a>
-			</li>
-			<li class="nav-item">
 				<a href="${root }user/logout" class="nav-link">로그아웃</a>
 			</li>
 		</ul>
