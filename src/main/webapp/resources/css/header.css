@@ -45,6 +45,13 @@
 	color : rgb(19,93,186);
 }
 
+.logo {
+	font-family: 'Noto Sans KR', sans-serif;
+	text-align: center;
+	font-size: 70px;
+	color : rgb(19,93,186);
+}
+
 .color-red {
 	background-color: darksalmon;
 }

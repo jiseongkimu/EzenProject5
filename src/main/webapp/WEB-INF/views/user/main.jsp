@@ -7,10 +7,14 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta >
+<meta>
 <title>미니 프로젝트</title>
 <!-- head_main.jsp <head> 설정 불러오기 -->
 <c:import url="/WEB-INF/views/include/head_main.jsp" />
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+<link rel="stylesheet"
+	href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
 </head>
 <body>
 
@@ -237,7 +241,35 @@
 		</div>
 		<!--  수평 배너 끝 -->
 
-
+		<div class="tile is-ancestor">
+			<div class="tile is-vertical is-8">
+				<div class="tile">
+					<div class="tile is-parent is-vertical">
+						<article class="tile is-child box">
+							<!-- Put any content you want -->
+						</article>
+						<article class="tile is-child box">
+							<!-- Put any content you want -->
+						</article>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<!-- Put any content you want -->
+						</article>
+					</div>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<!-- Put any content you want -->
+					</article>
+				</div>
+			</div>
+			<div class="tile is-parent">
+				<article class="tile is-child box">
+					<!-- Put any content you want -->
+				</article>
+			</div>
+		</div>
 
 		<!-- 배너 -->
 		<div class="cover p-3 bg-light " style="height: 50px;">
@@ -310,12 +342,8 @@
 		</div>
 		<!-- 상품 목록 5열 배치 끝-->
 
-
 	</div>
 	<!-- 메인 컨테이너 끝 -->
-
-
-
 
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
