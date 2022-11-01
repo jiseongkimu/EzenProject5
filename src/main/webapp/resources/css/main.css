@@ -31,15 +31,15 @@ a:active {
 	justify-content: space-between;
 }
 
-.product_banner_out{
+.product_banner_out {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 100px;
-	text-align: center; 
+	text-align: center;
 }
 
 .product_banner {
-	line-height: 300px;
+	line-height: 200px;
 }
 
 .col {
@@ -147,20 +147,47 @@ a:active {
 .carouselDiv {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	background: linear-gradient(to right, #EEFFEA, #F6F5E5, #FEEBDF);
 	margin-bottom: 100px;
 }
 
-.menu_title{
+.menu_title {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-weight: 100;
 	font-size: 35px;
+	margin-bottom: 5px;
 }
 
-.menu_sub{
+.menu_sub {
 	font-family: Malgun Gothic;
 	font-size: 15px;
 	font-weight: bold;
 	color: #A6A6A6;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+.footer_user {
+	font-family: Malgun Gothic;
+	font-size: 12px;
+	color: #888888;
+}
+
+.floating {
+	border: 1px solid #888888;
+	border-radius: 8px;
+	position: fixed;
+	right: 40%;
+	top: 400px;
+	margin-right: -720px;
+	text-align: center;
+	width: 120px;
+	
+}
+
+.floating_in{
+	font-family: Malgun Gothic;
+	font-size: 13px;
+	color: #888888;
+	align-items: center;
 }

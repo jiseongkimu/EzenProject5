@@ -27,7 +27,7 @@
 
 
 	<!-- 캐러셀(슬라이드) -->
-	<div class="carouselDiv" style="width: 100%;">
+	<div class="carouselDiv" style="width: 100%; height: 700px;">
 		<div id="carouselExampleCaptions" class="carousel slide"
 			data-bs-ride="false" style="width: 1128px; margin: 0 auto;">
 			<div class="carousel-indicators">
@@ -98,6 +98,10 @@
 	<!-- 캐러셀(슬라이드) 끝-->
 	<div class="container">
 
+
+		<!-- 배너 타이틀 -->
+		<div class="menu_title">진행중인 이벤트</div>
+
 		<!--  메인 상품 배너 -->
 		<div class="product_banner_out">
 			<!-- 1 -->
@@ -113,12 +117,14 @@
 			</div>
 		</div>
 
-		<!-- 2x3 배너 -->
+		<!-- 배너 타이틀 -->
 		<div class="menu_title">너.. 집에서 스타만 할거니?</div>
+		<!-- 배너 서브 -->
 		<div class="menu_sub">최신 게임을 위한 부품 모시깽이...</div>
 		<div class="cover hor_banner row row-cols-1 row-cols-md-3 g-4"
 			style="margin-bottom: 100px;">
 
+			<!-- 2x3 배너 -->
 			<!-- 1 -->
 			<div class="card mb-5 border-light">
 				<div class="row g-0">
@@ -277,7 +283,7 @@
 		</div>
 
 		<!-- 배너 -->
-		<div class="cover p-3 bg-light " style="height: 50px;">
+		<div class="cover p-3 bg-light mb-3" style="height: 50px;">
 			<div>
 				<B>eZen Computer 인기 상품</B>
 			</div>
@@ -285,9 +291,6 @@
 				<a href="#"> + 더보기</a>
 			</div>
 		</div>
-
-		<!-- 배너 라인 -->
-		<div class="mb-3 bg-primary" style="height: 6px;"></div>
 
 		<!-- 상품 목록 5열 배치-->
 		<div class="row row-cols-1 row-cols-md-5 g-4 mb-10">
@@ -313,7 +316,7 @@
 		<!-- 상품 목록 끝 -->
 
 		<!-- 배너 -->
-		<div class="cover p-3 bg-light " style="height: 50px;">
+		<div class="cover p-3 bg-light mb-3" style="height: 50px;">
 			<div>
 				<B>eZen Computer 인기 상품</B>
 			</div>
@@ -321,9 +324,6 @@
 				<a href="#"> + 더보기</a>
 			</div>
 		</div>
-
-		<!-- 배너 라인 -->
-		<div class="mb-3 bg-primary" style="height: 6px;"></div>
 
 		<!-- 상품 목록 5열 배치-->
 		<div class="row row-cols-1 row-cols-md-5 g-4 mb-5">
@@ -352,5 +352,18 @@
 
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
+
+	<div class="floating">
+		<div class="floating_in">
+			<div class="list-group">
+				<a href="${root }cart/list"
+					class="list-group-item list-group-item-action" aria-current="true">장바구니</a>
+				<a href="#" class="list-group-item list-group-item-action">최근 본
+					상품</a> <a href="${root }support/list"
+					class="list-group-item list-group-item-action">문의하기</a> <a
+					href="#top" class="list-group-item list-group-item-action">TOP</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
