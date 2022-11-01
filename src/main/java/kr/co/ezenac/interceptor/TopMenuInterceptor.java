@@ -9,6 +9,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 
 import kr.co.ezenac.beans.AdminBean;
 import kr.co.ezenac.beans.BoardInfoBean;
+import kr.co.ezenac.beans.UserBean;
 import kr.co.ezenac.service.TopMenuService;
 
 public class TopMenuInterceptor implements HandlerInterceptor {
@@ -18,11 +19,13 @@ public class TopMenuInterceptor implements HandlerInterceptor {
 	private TopMenuService topMenuService;
 
 	private AdminBean loginAdminBean;
+	private UserBean loginUserBean;
 
 	// 자동 주입이 안되어 객체 생성 후 넣어준다.
-	public TopMenuInterceptor(TopMenuService topMenuService, AdminBean loginAdminBean) {
+	public TopMenuInterceptor(TopMenuService topMenuService, AdminBean loginAdminBean, UserBean loginUserBean) {
 		this.topMenuService = topMenuService;
 		this.loginAdminBean = loginAdminBean;
+		this.loginUserBean = loginUserBean;
 	}
 
 	@Override
@@ -32,6 +35,7 @@ public class TopMenuInterceptor implements HandlerInterceptor {
 		List<BoardInfoBean> topMenuList = topMenuService.getTopMenuList();
 		request.setAttribute("topMenuList", topMenuList);
 		request.setAttribute("loginAdminBean", loginAdminBean);
+		request.setAttribute("loginUserBean", loginUserBean);
 
 		return true;
 	}

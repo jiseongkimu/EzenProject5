@@ -21,11 +21,13 @@ import org.springframework.web.servlet.config.annotation.ViewResolverRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 import kr.co.ezenac.beans.AdminBean;
+import kr.co.ezenac.beans.UserBean;
 import kr.co.ezenac.interceptor.CheckLoginInterceptor;
 import kr.co.ezenac.interceptor.TopMenuInterceptor;
 import kr.co.ezenac.mapper.AdminMapper;
 import kr.co.ezenac.mapper.BoardMapper;
 import kr.co.ezenac.mapper.TopMenuMapper;
+import kr.co.ezenac.mapper.UserMapper;
 import kr.co.ezenac.service.TopMenuService;
 
 // Spring MVC 프로젝트에 관련된 설정을 하는 클래스
@@ -57,6 +59,8 @@ public class ServletAppContext implements WebMvcConfigurer {
 
 	@Resource(name = "loginAdminBean")
 	private AdminBean loginAdminBean;
+	@Resource(name = "loginUserBean")
+	private UserBean loginUserBean;
 
 	// Controller의 메서드가 반환하는 jsp의 이름 앞뒤에 경로와 확장자를 붙혀주도록 설정한다.
 	@Override
@@ -116,11 +120,18 @@ public class ServletAppContext implements WebMvcConfigurer {
 		return factoryBean;
 	}
 
+	@Bean
+	public MapperFactoryBean<UserMapper> getUserMapper(SqlSessionFactory factory) throws Exception {
+		MapperFactoryBean<UserMapper> factoryBean = new MapperFactoryBean<UserMapper>(UserMapper.class);
+		factoryBean.setSqlSessionFactory(factory);
+		return factoryBean;
+	}
+
 	@Override
 	public void addInterceptors(InterceptorRegistry registry) {
 		WebMvcConfigurer.super.addInterceptors(registry);
 
-		TopMenuInterceptor topMenuInterceptor = new TopMenuInterceptor(topMenuService, loginAdminBean);
+		TopMenuInterceptor topMenuInterceptor = new TopMenuInterceptor(topMenuService, loginAdminBean, loginUserBean);
 		InterceptorRegistration reg1 = registry.addInterceptor(topMenuInterceptor);
 		reg1.addPathPatterns("/**");
 		CheckLoginInterceptor checkLoginInterceptor = new CheckLoginInterceptor(loginAdminBean);
