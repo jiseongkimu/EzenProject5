@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- header.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head.jsp" />
+<c:import url="/WEB-INF/views/include/head_setting.jsp" />
 </head>
 
 <body>

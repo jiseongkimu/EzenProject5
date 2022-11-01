@@ -9,24 +9,27 @@
 <meta charset="UTF-8">
 <meta>
 <title>미니 프로젝트</title>
-<!-- head_main.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head_main.jsp" />
-<link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-<link rel="stylesheet"
-	href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
 </head>
 <body>
 
 	<!-- 헤더 -->
 	<c:import url="/WEB-INF/views/include/header_user.jsp" />
 
-	<!-- 메인 컨테이너 -->
-	<div class="container">
+	<!-- 배너 -->
+	<div class="bg-light" style="height: 70px;">
+		<div>
+			<a href="${root }product/info"> <img
+				src="${root}image/main_eventBanner.PNG">
+			</a>
+		</div>
 
-		<!-- 캐러셀(슬라이드) -->
+	</div>
+
+
+	<!-- 캐러셀(슬라이드) -->
+	<div class="carouselDiv" style="width: 100%;">
 		<div id="carouselExampleCaptions" class="carousel slide"
-			data-bs-ride="false">
+			data-bs-ride="false" style="width: 1128px; margin: 0 auto;">
 			<div class="carousel-indicators">
 				<button type="button" data-bs-target="#carouselExampleCaptions"
 					data-bs-slide-to="0" class="active" aria-current="true"
@@ -36,6 +39,7 @@
 				<button type="button" data-bs-target="#carouselExampleCaptions"
 					data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
+
 			<div class="carousel-inner">
 
 				<!-- 1번 슬라이드 -->
@@ -90,27 +94,33 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-		<!-- 캐러셀(슬라이드) 끝-->
+	</div>
+	<!-- 캐러셀(슬라이드) 끝-->
+	<div class="container">
 
 		<!--  메인 상품 배너 -->
-		<div class="cover" style="text-align: center; margin-bottom: 100px;">
+		<div class="product_banner_out">
+			<!-- 1 -->
 			<div class="product_banner">
 				<a href="${root }product/info"><img class="banner"
 					src="${root}image/slide_4.jpg"></a>
 			</div>
+
+			<!-- 2 -->
 			<div class="product_banner">
 				<a href="${root }product/info"><img class="banner"
 					src="${root}image/slide_4.jpg"></a>
 			</div>
 		</div>
 
-		<!-- 수평 배너 -->
+		<!-- 2x3 배너 -->
+		<div class="menu_title">너.. 집에서 스타만 할거니?</div>
+		<div class="menu_sub">최신 게임을 위한 부품 모시깽이...</div>
 		<div class="cover hor_banner row row-cols-1 row-cols-md-3 g-4"
 			style="margin-bottom: 100px;">
 
 			<!-- 1 -->
-			<div class="card mb-3 border-light border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-light">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img id="177x177" src="${root}image/slide_1.jpg"
@@ -132,8 +142,7 @@
 			</div>
 
 			<!-- 2 -->
-			<div class="card mb-3 border-light border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-light">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<a href="${root }product/info"> <img
@@ -156,9 +165,7 @@
 			</div>
 
 			<!-- 3 -->
-
-			<div class="card mb-3 border-light border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-light">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<a href="${root }product/info"> <img
@@ -181,8 +188,7 @@
 			</div>
 
 			<!-- 4 -->
-			<div class="card mb-3 border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-light">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root} image/slide_1.jpg" id="177x177"
@@ -201,8 +207,7 @@
 				</div>
 			</div>
 			<!-- 5 -->
-			<div class="card mb-3 border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-light">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root}image/slide_1.jpg" id="177x177"
@@ -219,9 +224,9 @@
 					</div>
 				</div>
 			</div>
+
 			<!-- 6 -->
-			<div class="card mb-3 border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-light">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root}image/slide_1.jpg" id="177x177"
@@ -282,7 +287,7 @@
 		</div>
 
 		<!-- 배너 라인 -->
-		<div class="mb-3 bg-primary" style="height: 7px;"></div>
+		<div class="mb-3 bg-primary" style="height: 6px;"></div>
 
 		<!-- 상품 목록 5열 배치-->
 		<div class="row row-cols-1 row-cols-md-5 g-4 mb-10">
@@ -318,7 +323,7 @@
 		</div>
 
 		<!-- 배너 라인 -->
-		<div class="mb-3 bg-primary" style="height: 7px;"></div>
+		<div class="mb-3 bg-primary" style="height: 6px;"></div>
 
 		<!-- 상품 목록 5열 배치-->
 		<div class="row row-cols-1 row-cols-md-5 g-4 mb-5">

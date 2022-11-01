@@ -9,8 +9,6 @@
 <meta charset="UTF-8">
 <meta>
 <title>관리자 페이지</title>
-<!-- head_main.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head_main.jsp" />
 </head>
 <body>
 

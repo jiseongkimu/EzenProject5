@@ -34,7 +34,6 @@
 	font-family: Malgun Gothic;
 	font-size: 12px;
 	font-weight: bolder;
-	
 	text-align: center;
 }
 
@@ -42,6 +41,10 @@
 	font-family: 'Noto Sans KR', sans-serif;
 	text-align: center;
 	font-size: 70px;
+	color : rgb(19,93,186);
+}
+
+#logo {
 	color : rgb(19,93,186);
 }
 

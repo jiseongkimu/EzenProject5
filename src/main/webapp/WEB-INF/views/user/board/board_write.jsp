@@ -16,7 +16,7 @@
 </head>
 <body>
 
-<c:import url="/WEB-INF/views/include/footer_admin.jsp"/>
+<c:import url="/WEB-INF/views/include/header_admin.jsp"/>
 
 <div class="container" style="margin-top:100px">
 	<div class="row">

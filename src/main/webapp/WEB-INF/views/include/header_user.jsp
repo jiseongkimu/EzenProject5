@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- header.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head.jsp" />
+<c:import url="/WEB-INF/views/include/head_setting.jsp" />
 </head>
 
 <body>
@@ -44,7 +44,9 @@
 	<!-- 로고 -->
 	<div class="container">
 
-		<div class="flex-logo"><a href="${root }main"><font style="font-color : #0D6EFD;">eZen Computer</font></a></div>
+		<div class="flex-logo">
+			<a id="logo" href="${root }main">eZen Computer</a>
+		</div>
 
 		<!-- 검색창 -->
 		<div class="flex-item">
@@ -53,11 +55,13 @@
 				<div class="search">
 					<form action="">
 						<input class="search_input" type="text" name="" id=""
-							placeholder="검색어 입력...">
+							placeholder="검색어 입력...">&nbsp;&nbsp;
 
+						<!-- 
 						<button type="submit">
 							<span class="fa fa-search"></span>
 						</button>
+						 -->
 
 						<a href="${root }product/list"> <span class="fa fa-search"></span>
 						</a>
@@ -72,28 +76,32 @@
 	</div>
 	<!-- 로고 끝-->
 
-	<!-- 메인 컨테이너 -->
-	<div class="container" style="margin-bottom: 2px;">
+	<!-- 네비게이션 바 -->
+	<ul class="nav nav-justified bg-light border-bottom border-top"
+		style="padding-left: 300px; padding-right: 300px;">
+		<!-- 버튼1-->
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">CPU</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">메인보드</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">메모리</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">그래픽카드</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">SSD</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">HDD</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">파워</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">쿨러</a></li>
+		<li id="side_nav_menu" class="nav-item"><a class="nav-link"
+			href="${root }product/list">케이스</a></li>
+	</ul>
+	<!-- 네비게이션 바 끝-->
 
-		<!-- 네비게이션 바 -->
-		<ul class="nav nav-pills nav-fill">
-			<!-- 버튼1-->
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">CPU</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">메인보드</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">메모리</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">그래픽카드</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">SSD</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">HDD</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">파워</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">쿨러</a></li>
-			<li class="nav-item"><a class="nav-link" href="${root }product/list">케이스</a></li>
-		</ul>
-		<!-- 네비게이션 바 끝-->
 
-		<!-- 배너 라인 -->
-		<div class="bg-primary" style="height: 7px;"></div>
-	</div>
-	<!-- 메인 컨테이너 끝 -->
 
 </body>
 </html>
