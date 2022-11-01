@@ -18,11 +18,10 @@
 	<!-- 배너 -->
 	<div class="bg-light" style="height: 70px;">
 		<div>
-			<a href="${root }product/info"> <img
+			<a href="${root}product/info"> <img
 				src="${root}image/main_eventBanner.PNG">
 			</a>
 		</div>
-
 	</div>
 
 
@@ -30,7 +29,7 @@
 	<div class="carouselDiv" style="width: 100%; height: 700px;">
 		<div id="carouselExampleCaptions" class="carousel slide"
 			data-bs-ride="false" style="width: 1128px; margin: 0 auto;">
-			<div class="carousel-indicators">
+			<div class="carousel">
 				<button type="button" data-bs-target="#carouselExampleCaptions"
 					data-bs-slide-to="0" class="active" aria-current="true"
 					aria-label="Slide 1"></button>
@@ -47,10 +46,9 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_1.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first
-								slide.</p>
+						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
+							<h5>ThinkBook 16p G3 ARH 21</h5>
+							<p>완벽에 가까워진 ThinkBook 16p G3을 경험해보세용.</p>
 						</div>
 					</a>
 				</div>
@@ -59,10 +57,9 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_2.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Second slide label</h5>
-							<p>Some representative placeholder content for the first
-								slide.</p>
+						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
+							<h5>나만을 위한 커스텀 키보드</h5>
+							<p>근데 이젠 컴퓨터는 키보드 안 팔잖아요??</p>
 						</div>
 					</a>
 				</div>
@@ -71,10 +68,9 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_3.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Third slide label</h5>
-							<p>Some representative placeholder content for the third
-								slide.</p>
+						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
+							<h5>베스트 아웃도어 제품</h5>
+							<p>NEPA, K2, Dynafit, North Face</p>
 						</div>
 					</a>
 				</div>
@@ -97,7 +93,6 @@
 	</div>
 	<!-- 캐러셀(슬라이드) 끝-->
 	<div class="container">
-
 
 		<!-- 배너 타이틀 -->
 		<div class="menu_title">진행중인 이벤트</div>
@@ -126,7 +121,7 @@
 
 			<!-- 2x3 배너 -->
 			<!-- 1 -->
-			<div class="card mb-5 border-light">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img id="177x177" src="${root}image/slide_1.jpg"
@@ -148,7 +143,7 @@
 			</div>
 
 			<!-- 2 -->
-			<div class="card mb-5 border-light">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<a href="${root }product/info"> <img
@@ -171,7 +166,7 @@
 			</div>
 
 			<!-- 3 -->
-			<div class="card mb-5 border-light">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<a href="${root }product/info"> <img
@@ -194,7 +189,7 @@
 			</div>
 
 			<!-- 4 -->
-			<div class="card mb-5 border-light">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root} image/slide_1.jpg" id="177x177"
@@ -213,7 +208,7 @@
 				</div>
 			</div>
 			<!-- 5 -->
-			<div class="card mb-5 border-light">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root}image/slide_1.jpg" id="177x177"
@@ -232,7 +227,7 @@
 			</div>
 
 			<!-- 6 -->
-			<div class="card mb-5 border-light">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root}image/slide_1.jpg" id="177x177"
@@ -300,7 +295,7 @@
 				<!-- 같은 높이가 필요한 경우에는, 카드에 .h-100 클래스를 추가
 				Sass 에 $card-height: 100%를 설정하면, 클래스 추가 없이 기본적(항상)으로 같은 높이를 사용할 수 있다. -->
 				<a href="${root }product/info">
-					<div class="card h-100 border-light">
+					<div class="card h-100 border-0">
 						<img src="image/main_list_product_1.jpg" class="card-img-top"
 							alt="...">
 						<div class="card-body">
@@ -331,7 +326,7 @@
 			<!--  상품 -->
 			<div class="col mb-5">
 				<a href="${root }product/info">
-					<div class="card h-100 border-light">
+					<div class="card h-100 border-0">
 						<img src="image/main_list_product_1.jpg" class="card-img-top"
 							alt="...">
 						<div class="card-body">

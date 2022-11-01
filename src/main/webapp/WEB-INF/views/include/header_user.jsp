@@ -28,7 +28,7 @@
 		</div>
 		&nbsp;&nbsp;
 		<div class="flex-item ">
-			<a href="${root }user/modify">정보수정</a>
+			<a href="${root }user/modify">마이페이지</a>
 		</div>
 		&nbsp;&nbsp;
 		<div class="flex-item ">

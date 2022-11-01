@@ -28,7 +28,7 @@
 		</div>
 		&nbsp;&nbsp;
 		<div class="flex-item ">
-			<a href="${root }user/modify">정보수정</a>
+			<a href="${root }user/modify">마이페이지</a>
 		</div>
 		&nbsp;&nbsp;
 		<div class="flex-item ">
@@ -44,9 +44,9 @@
 	<!-- 로고 -->
 	<div class="container">
 
-		<!-- <div class="flex-item "><img src="images/image1.png"></div> -->
-		<a href="${root }"><div class="flex-logo">eZen Computer</div></a>
-
+		<div class="flex-logo">
+			<a id="logo" href="${root }main">eZen Computer</a>
+		</div>
 
 
 	</div>

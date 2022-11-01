@@ -144,6 +144,7 @@
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
 
+	<!-- 플로팅 -->
 	<div class="floating">
 		<div class="floating_in">
 			<div class="list-group">
