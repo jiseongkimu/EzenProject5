@@ -32,6 +32,11 @@
 		</div>
 		&nbsp;&nbsp;
 		<div class="flex-item ">
+			<a href="${root }user/mypage">마이페이지</a>
+		</div>
+		
+		&nbsp;&nbsp;
+		<div class="flex-item ">
 			<a href="${root }cart/list">장바구니</a>
 		</div>
 		&nbsp;&nbsp;
