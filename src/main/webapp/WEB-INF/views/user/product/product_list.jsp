@@ -23,7 +23,7 @@
 				<tr>
 					<td width="180" height="180" align="center" bgcolor="#ffffff"
 						style="padding: 0px"><a href="${root }product/info"><img
-							src="${root }image/main_list_product1.jpg" width="150"
+							src="${root }image/main_list_product_1.jpg" width="150"
 							height="150" style="border: 1px solid #eaeaea"></a></td>
 					<td height="120" bgcolor="#ffffff"
 						style="padding: 10px 0 10px 10px">
