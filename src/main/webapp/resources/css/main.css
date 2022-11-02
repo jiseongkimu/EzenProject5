@@ -1,112 +1,193 @@
+a {
+	text-decoration-line: none;
+	/*   text-decoration-line: underline; */
+	/*   text-decoration-line: overline; */
+	/*   text-decoration-line: line-through; */
+	/*   text-decoration-line: underline line-through overline; */
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
 #slide_image {
 	height: 600px;
 }
 
 .cover {
-    display: flex;
-    justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
-.product_banner{
-	width : 600px;
-	height : 300px;
-	line-height: 300px;
-	margin-bottom : 50px;
+.product_banner_out {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 100px;
+	text-align: center;
 }
 
-.col{
-	margin-bottom : 200px;
+.product_banner {
+	line-height: 200px;
 }
 
-.banner{
-	height : 300px;
-	width : 600px;
+.col {
+	margin-bottom: 200px;
 }
 
-.carousel{
-	margin-bottom : 100px;
+.banner {
+	height: 200px;
+	width: 600px;
 }
 
-.card-text{
-	font-size : 13px;
+.carousel {
+	margin-bottom: 100px;
 }
 
-.product_title{
+.card-text {
+	font-size: 13px;
+}
+
+.product_title {
 	font-family: 'Noto Sans KR', sans-serif;
-	font-size : 40px;
-	font-weight : bold;
+	font-size: 40px;
+	font-weight: bold;
 }
 
-.product_tag{
-	font-size : 18px;
-	color : #A6A6A6;
+.product_tag {
+	font-size: 18px;
+	color: #A6A6A6;
 }
 
-.test1{
-	width : 100%;
-	background-color : #A9A9F5;
-}
-
-.test2{
-	width : 50%;
-	height : 600px;
-	background-color : #2E64FE;
-}
-
-.test3{
-	width : 50%;
-	height : 600px;
-	background-color : #FFBF00;
-}
-
-#product_info_img{
-	width: 500px;
-  	height: 500px;
-  	object-fit: cover;
-}
-
-#177x177{
-	width: 180px;
-  	height: 200px;
-  	object-fit: cover;
-}
-
-.product_detail_out{
+.test1 {
 	width: 100%;
- 	text-align: center;
+	background-color: #A9A9F5;
 }
 
-.product_detail_image{
-	margin-bottom : 250px;
+.test2 {
+	width: 50%;
+	height: 600px;
+	background-color: #2E64FE;
 }
 
-.product_detail_table{
-	margin-bottom : 250px;
+.test3 {
+	width: 50%;
+	height: 600px;
+	background-color: #FFBF00;
 }
 
-.product_detail_review{
-	margin-bottom : 250px;
+#product_info_img {
+	width: 500px;
+	height: 500px;
+	object-fit: cover;
 }
 
-#product_list_img{
-	margin-bottom : 10px;
+#177x177 {
+	width: 180px;
+	height: 300px;
+	object-fit: cover;
 }
 
-#cart_img{
+.product_detail_out {
+	width: 100%;
+	text-align: center;
+}
+
+.product_detail_image {
+	margin-bottom: 250px;
+}
+
+.product_detail_table {
+	margin-bottom: 250px;
+}
+
+.product_detail_review {
+	margin-bottom: 250px;
+}
+
+#product_list_img {
+	margin-bottom: 10px;
+}
+
+#cart_img {
 	width: 150px;
-  	height: 150px;
-  	object-fit: cover;
+	height: 150px;
+	object-fit: cover;
 }
 
-.table td, .table th{
-	text-align : center;
- 	vertical-align : middle;
+.table td, .table th {
+	text-align: center;
+	vertical-align: middle;
 }
 
-#price{
-	text-align : right;
+#price {
+	text-align: right;
 }
 
-#support_search{
-	width : 300px;
+#support_search {
+	width: 300px;
+}
+
+#side_nav_menu {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 100;
+}
+
+.carouselDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(to right, #EEFFEA, #F6F5E5, #FEEBDF);
+	margin-bottom: 100px;
+}
+
+.menu_title {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 100;
+	font-size: 35px;
+	margin-bottom: 5px;
+}
+
+.menu_sub {
+	font-family: Malgun Gothic;
+	font-size: 15px;
+	font-weight: bold;
+	color: #A6A6A6;
+	margin-bottom: 15px;
+}
+
+.footer_user {
+	font-family: Malgun Gothic;
+	font-size: 12px;
+	color: #888888;
+}
+
+.floating {
+	border: 1px solid #888888;
+	border-radius: 8px;
+	position: fixed;
+	right: 40%;
+	top: 410px;
+	margin-right: -720px;
+	text-align: center;
+	width: 120px;
+	
+}
+
+.floating_in{
+	font-family: Malgun Gothic;
+	font-size: 13px;
+	color: #888888;
+	align-items: center;
 }

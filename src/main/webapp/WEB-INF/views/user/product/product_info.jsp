@@ -8,7 +8,6 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- head_main.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head_main.jsp" />
 <script src="/resources/jquery/jquery-3.3.1.min.js"></script>
 </head>
 <body>
@@ -123,7 +122,7 @@
 				</table>
 			</div>
 			<!-- 상세 정보 테이블 끝-->
-			
+
 			<!-- 리뷰 게시판 -->
 			<c:import url="/WEB-INF/views/include/review_list_in.jsp" />
 
@@ -144,5 +143,19 @@
 	<!-- 메인 컨테이너 끝 -->
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
+
+	<!-- 플로팅 -->
+	<div class="floating">
+		<div class="floating_in">
+			<div class="list-group">
+				<a href="${root }cart/list"
+					class="list-group-item list-group-item-action" aria-current="true">장바구니</a>
+				<a href="#" class="list-group-item list-group-item-action">최근 본
+					상품</a> <a href="${root }support/list"
+					class="list-group-item list-group-item-action">문의하기</a> <a
+					href="#top" class="list-group-item list-group-item-action">TOP</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

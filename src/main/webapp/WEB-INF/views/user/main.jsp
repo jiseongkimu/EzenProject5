@@ -7,23 +7,29 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<meta >
+<meta>
 <title>미니 프로젝트</title>
-<!-- head_main.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head_main.jsp" />
 </head>
 <body>
 
 	<!-- 헤더 -->
 	<c:import url="/WEB-INF/views/include/header_user.jsp" />
 
-	<!-- 메인 컨테이너 -->
-	<div class="container">
+	<!-- 배너 -->
+	<div class="bg-light" style="height: 70px;">
+		<div>
+			<a href="${root}product/info"> <img
+				src="${root}image/main_eventBanner.PNG">
+			</a>
+		</div>
+	</div>
 
-		<!-- 캐러셀(슬라이드) -->
+
+	<!-- 캐러셀(슬라이드) -->
+	<div class="carouselDiv" style="width: 100%; height: 700px;">
 		<div id="carouselExampleCaptions" class="carousel slide"
-			data-bs-ride="false">
-			<div class="carousel-indicators">
+			data-bs-ride="false" style="width: 1128px; margin: 0 auto;">
+			<div class="carousel">
 				<button type="button" data-bs-target="#carouselExampleCaptions"
 					data-bs-slide-to="0" class="active" aria-current="true"
 					aria-label="Slide 1"></button>
@@ -32,6 +38,7 @@
 				<button type="button" data-bs-target="#carouselExampleCaptions"
 					data-bs-slide-to="2" aria-label="Slide 3"></button>
 			</div>
+
 			<div class="carousel-inner">
 
 				<!-- 1번 슬라이드 -->
@@ -39,10 +46,9 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_1.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first
-								slide.</p>
+						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
+							<h5>ThinkBook 16p G3 ARH 21</h5>
+							<p>완벽에 가까워진 ThinkBook 16p G3을 경험해보세용.</p>
 						</div>
 					</a>
 				</div>
@@ -51,10 +57,9 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_2.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Second slide label</h5>
-							<p>Some representative placeholder content for the first
-								slide.</p>
+						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
+							<h5>나만을 위한 커스텀 키보드</h5>
+							<p>근데 이젠 컴퓨터는 키보드 안 팔잖아요??</p>
 						</div>
 					</a>
 				</div>
@@ -63,10 +68,9 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_3.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block">
-							<h5>Third slide label</h5>
-							<p>Some representative placeholder content for the third
-								slide.</p>
+						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
+							<h5>베스트 아웃도어 제품</h5>
+							<p>NEPA, K2, Dynafit, North Face</p>
 						</div>
 					</a>
 				</div>
@@ -86,27 +90,38 @@
 				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
-		<!-- 캐러셀(슬라이드) 끝-->
+	</div>
+	<!-- 캐러셀(슬라이드) 끝-->
+	<div class="container">
+
+		<!-- 배너 타이틀 -->
+		<div class="menu_title">진행중인 이벤트</div>
 
 		<!--  메인 상품 배너 -->
-		<div class="cover" style="text-align: center; margin-bottom: 100px;">
+		<div class="product_banner_out">
+			<!-- 1 -->
 			<div class="product_banner">
 				<a href="${root }product/info"><img class="banner"
 					src="${root}image/slide_4.jpg"></a>
 			</div>
+
+			<!-- 2 -->
 			<div class="product_banner">
 				<a href="${root }product/info"><img class="banner"
 					src="${root}image/slide_4.jpg"></a>
 			</div>
 		</div>
 
-		<!-- 수평 배너 -->
+		<!-- 배너 타이틀 -->
+		<div class="menu_title">너.. 집에서 스타만 할거니?</div>
+		<!-- 배너 서브 -->
+		<div class="menu_sub">최신 게임을 위한 부품 모시깽이...</div>
 		<div class="cover hor_banner row row-cols-1 row-cols-md-3 g-4"
 			style="margin-bottom: 100px;">
 
+			<!-- 2x3 배너 -->
 			<!-- 1 -->
-			<div class="card mb-3 border-light border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img id="177x177" src="${root}image/slide_1.jpg"
@@ -128,8 +143,7 @@
 			</div>
 
 			<!-- 2 -->
-			<div class="card mb-3 border-light border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<a href="${root }product/info"> <img
@@ -152,9 +166,7 @@
 			</div>
 
 			<!-- 3 -->
-
-			<div class="card mb-3 border-light border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<a href="${root }product/info"> <img
@@ -177,8 +189,7 @@
 			</div>
 
 			<!-- 4 -->
-			<div class="card mb-3 border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root} image/slide_1.jpg" id="177x177"
@@ -197,8 +208,7 @@
 				</div>
 			</div>
 			<!-- 5 -->
-			<div class="card mb-3 border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root}image/slide_1.jpg" id="177x177"
@@ -215,9 +225,9 @@
 					</div>
 				</div>
 			</div>
+
 			<!-- 6 -->
-			<div class="card mb-3 border-light"
-				style="width: 380px; height: 200px;">
+			<div class="card mb-5 border-0">
 				<div class="row g-0">
 					<div class="col-md-6">
 						<img src="${root}image/slide_1.jpg" id="177x177"
@@ -237,10 +247,38 @@
 		</div>
 		<!--  수평 배너 끝 -->
 
-
+		<div class="tile is-ancestor">
+			<div class="tile is-vertical is-8">
+				<div class="tile">
+					<div class="tile is-parent is-vertical">
+						<article class="tile is-child box">
+							<!-- Put any content you want -->
+						</article>
+						<article class="tile is-child box">
+							<!-- Put any content you want -->
+						</article>
+					</div>
+					<div class="tile is-parent">
+						<article class="tile is-child box">
+							<!-- Put any content you want -->
+						</article>
+					</div>
+				</div>
+				<div class="tile is-parent">
+					<article class="tile is-child box">
+						<!-- Put any content you want -->
+					</article>
+				</div>
+			</div>
+			<div class="tile is-parent">
+				<article class="tile is-child box">
+					<!-- Put any content you want -->
+				</article>
+			</div>
+		</div>
 
 		<!-- 배너 -->
-		<div class="cover p-3 bg-light " style="height: 50px;">
+		<div class="cover p-3 bg-light mb-3" style="height: 50px;">
 			<div>
 				<B>eZen Computer 인기 상품</B>
 			</div>
@@ -248,9 +286,6 @@
 				<a href="#"> + 더보기</a>
 			</div>
 		</div>
-
-		<!-- 배너 라인 -->
-		<div class="mb-3 bg-primary" style="height: 7px;"></div>
 
 		<!-- 상품 목록 5열 배치-->
 		<div class="row row-cols-1 row-cols-md-5 g-4 mb-10">
@@ -260,7 +295,7 @@
 				<!-- 같은 높이가 필요한 경우에는, 카드에 .h-100 클래스를 추가
 				Sass 에 $card-height: 100%를 설정하면, 클래스 추가 없이 기본적(항상)으로 같은 높이를 사용할 수 있다. -->
 				<a href="${root }product/info">
-					<div class="card h-100 border-light">
+					<div class="card h-100 border-0">
 						<img src="image/main_list_product_1.jpg" class="card-img-top"
 							alt="...">
 						<div class="card-body">
@@ -276,7 +311,7 @@
 		<!-- 상품 목록 끝 -->
 
 		<!-- 배너 -->
-		<div class="cover p-3 bg-light " style="height: 50px;">
+		<div class="cover p-3 bg-light mb-3" style="height: 50px;">
 			<div>
 				<B>eZen Computer 인기 상품</B>
 			</div>
@@ -285,16 +320,13 @@
 			</div>
 		</div>
 
-		<!-- 배너 라인 -->
-		<div class="mb-3 bg-primary" style="height: 7px;"></div>
-
 		<!-- 상품 목록 5열 배치-->
 		<div class="row row-cols-1 row-cols-md-5 g-4 mb-5">
 
 			<!--  상품 -->
 			<div class="col mb-5">
 				<a href="${root }product/info">
-					<div class="card h-100 border-light">
+					<div class="card h-100 border-0">
 						<img src="image/main_list_product_1.jpg" class="card-img-top"
 							alt="...">
 						<div class="card-body">
@@ -310,14 +342,23 @@
 		</div>
 		<!-- 상품 목록 5열 배치 끝-->
 
-
 	</div>
 	<!-- 메인 컨테이너 끝 -->
 
-
-
-
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
+
+	<div class="floating">
+		<div class="floating_in">
+			<div class="list-group">
+				<a href="${root }cart/list"
+					class="list-group-item list-group-item-action" aria-current="true">장바구니</a>
+				<a href="#" class="list-group-item list-group-item-action">최근 본
+					상품</a> <a href="${root }support/list"
+					class="list-group-item list-group-item-action">문의하기</a> <a
+					href="#top" class="list-group-item list-group-item-action">TOP</a>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

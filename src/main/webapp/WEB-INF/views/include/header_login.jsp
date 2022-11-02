@@ -8,7 +8,7 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- header.jsp <head> 설정 불러오기 -->
-<c:import url="/WEB-INF/views/include/head.jsp" />
+<c:import url="/WEB-INF/views/include/head_setting.jsp" />
 </head>
 
 <body>
@@ -28,8 +28,13 @@
 		</div>
 		&nbsp;&nbsp;
 		<div class="flex-item ">
-			<a href="${root }user/modify">정보수정</a>
+			<a href="${root }user/modify">마이페이지</a>
 		</div>
+		&nbsp;&nbsp;
+		<div class="flex-item ">
+			<a href="${root }user/mypage">마이페이지</a>
+		</div>
+		
 		&nbsp;&nbsp;
 		<div class="flex-item ">
 			<a href="${root }cart/list">장바구니</a>
@@ -44,9 +49,9 @@
 	<!-- 로고 -->
 	<div class="container">
 
-		<!-- <div class="flex-item "><img src="images/image1.png"></div> -->
-		<a href="${root }"><div class="flex-logo">eZen Computer</div></a>
-
+		<div class="flex-logo">
+			<a id="logo" href="${root }main">eZen Computer</a>
+		</div>
 
 
 	</div>
