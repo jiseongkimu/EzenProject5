@@ -6,3 +6,5 @@ admin_idx number constraint ADMIN_PK primary key,
 );
 
 insert into admin_table values(1, 'admin', '@admin', 1234);
+
+select * from user_table;

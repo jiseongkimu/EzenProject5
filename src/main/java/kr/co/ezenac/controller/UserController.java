@@ -51,8 +51,6 @@ public class UserController {
 
 		if (loginUserBean.isUserLogin() == true) {
 			return "user/users/login_success";
-		} else if (loginUserBean.getUser_id().contains("@")) {
-			return "/admin";
 		} else {
 			return "user/users/login_fail";
 		}
