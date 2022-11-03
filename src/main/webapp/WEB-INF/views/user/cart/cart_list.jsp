@@ -28,7 +28,7 @@
 					<input type="checkbox" checked="checked"><span>전체선택</span>
 				</div>
 				<table class="table" style="table-layout: fixed">
-					<tbody>
+					<thead class="table-light">
 						<tr>
 							<!-- 체크 박스 -->
 							<th width="5%">선택</th>
@@ -40,7 +40,7 @@
 							<th width="15%">합계</th>
 							<th width="5%">삭제</th>
 						</tr>
-					</tbody>
+					</thead>
 				</table>
 				<table class="table">
 					<tbody>
@@ -50,12 +50,12 @@
 							<!-- 이미지 -->
 							<td width="20%"><img id="cart_img"
 								src="${root }image/main_list_product_1.jpg"></td>
-							<td width="15%">이름</td>
-							<td id="price" width="15%">정가 : 25,000<br> 판매가 : 20,000<br>
+							<td width="20%">이름</td>
+							<td id="price" width="10%">정가 : 25,000<br> 판매가 : 20,000<br>
 								마일리지 : <span class="green_color">250</span></td>
 							<td width="15%">
 								<div>
-									<input type="text" value="">
+									<input type="text" value="" style="width: 50px;">
 									<button class="quantity_btn plus_btn">+</button>
 									<button class="quantity_btn minus_btn">-</button>
 								</div>

@@ -31,7 +31,7 @@
 }
 
 .flex-item {
-	font-family: Malgun Gothic;
+	font-family: 'MICEGothic Bold';
 	font-size: 12px;
 	font-weight: bolder;
 	text-align: center;
@@ -84,7 +84,7 @@
 }
 
 input {
-	font-family: Nanum Gothic;
+	font-family: 'MICEGothic Bold';
 	border: 1px solid #bbb;
 	border-radius: 8px;
 	padding: 10px 12px;
@@ -102,11 +102,11 @@ input {
 }
 
 .menu1{
-	font-family: Nanum Gothic;
+	font-family: 'MICEGothic Bold';
 	font-weight: bolder;
 	background-color: darksalmon;
 }
 
 .li{
-	font-family: Nanum Gothic; 
+	font-family: 'MICEGothic Bold';
 }

@@ -13,7 +13,7 @@
 
 	<!-- 헤더 -->
 	<c:import url="/WEB-INF/views/include/header_user.jsp" />
-	<h1>order_list.jsp</h1>
+	<h1>order_list.jsp(주문 내역)</h1>
 
 	<div class="container">
 		

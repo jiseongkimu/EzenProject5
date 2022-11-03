@@ -23,42 +23,42 @@
 			</colgroup>
 			<tbody>
 				<tr>
-					<th>구분</th>
-					<th>일반상품/아이웍스PC</th>
-					<th>추천조립/일반조립</th>
-					<th>튜닝 PC</th>
+					<th class="info_table">구분</th>
+					<th class="info_table">일반상품/아이웍스PC</th>
+					<th class="info_table">추천조립/일반조립</th>
+					<th class="info_table">튜닝 PC</th>
 				</tr>
 				<tr>
-					<th>CJ대한통운<a
+					<th class="info_table">CJ대한통운<a
 						href="javascript:window_open('../delivery_info/delivery.htm','940','600','scrollbars=no','');"
 						class="ico_n_win"></a></th>
-					<td>오후 5시 30분까지 결제하면<br>
+					<td class="info_table">오후 5시 30분까지 결제하면<br>
 					<b>당일발송</b></td>
-					<td rowspan="4" class="last">오후 4시까지 결제하면<br>
+					<td class="info_table" rowspan="4" class="last">오후 4시까지 결제하면<br>
 					<b>당일발송</b></td>
-					<td rowspan="4" class="last">오후 4시까지 결제하면<br>
+					<td class="info_table" rowspan="4" class="last">오후 4시까지 결제하면<br>
 					<b>당일발송</b></td>
 				</tr>
 				<tr>
-					<th>한진택배<a
+					<th class="info_table">한진택배<a
 						href="javascript:window_open('../delivery_info/delivery.htm','940','600','scrollbars=no','');"
 						class="ico_n_win"></a></th>
-					<td>오후 5시까지 결제하면<br>
+					<td class="info_table">오후 5시까지 결제하면<br>
 					<b>당일발송</b></td>
 				</tr>
 				<tr>
-					<th>롯데택배<a
+					<th class="info_table">롯데택배<a
 						href="javascript:window_open('../delivery_info/delivery.htm','940','600','scrollbars=no','');"
 						class="ico_n_win"></a></th>
-					<td>오후 5시까지 결제하면<br>
+					<td class="info_table">오후 5시까지 결제하면<br>
 					<b>당일발송</b></td>
 				</tr>
 				<tr>
-					<th class="last">경동화물<a
+					<th class="info_table" class="last">경동화물<a
 						href="javascript:window_open('../delivery_info/delivery_kdexp.htm','940','600','scrollbars=no','');"
 						class="ico_n_win"></a><br>
 					<span>(플래티늄 회원 전용)</span></th>
-					<td class="last">오후 4시까지 결제하면<br>
+					<td class="info_table" class="last">오후 4시까지 결제하면<br>
 					<b>2일 이내 도착</b></td>
 				</tr>
 			</tbody>
@@ -76,42 +76,42 @@
 			</colgroup>
 			<tbody>
 				<tr>
-					<th>구분</th>
-					<th>일반상품</th>
-					<th>아이웍스PC</th>
-					<th>추천조립/일반조립</th>
-					<th>튜닝 PC</th>
+					<th class="info_table">구분</th>
+					<th class="info_table">일반상품</th>
+					<th class="info_table">아이웍스PC</th>
+					<th class="info_table">추천조립/일반조립</th>
+					<th class="info_table">튜닝 PC</th>
 				</tr>
 				<tr>
-					<th>당일택배<a
+					<th class="info_table">당일택배<a
 						href="javascript:window_open('../delivery_info/delivery_sameday.htm','940','600','scrollbars=no','');"
 						class="ico_n_win"></a><br>
 					<span>(서울,경기 일부지역)</span></th>
-					<td>낮 12시까지 결제하면<br>
+					<td class="info_table">낮 12시까지 결제하면<br>
 					<b>오후 10시까지 도착</b><br> ※ (OS설치 요청 시 예외)
 					</td>
-					<td colspan="3">오전 10시까지 결제하면<b>&nbsp;오후 10시까지 도착</b><br>
+					<td class="info_table" colspan="3">오전 10시까지 결제하면<b>&nbsp;오후 10시까지 도착</b><br>
 						※ (OS설치 요청 시 예외)
 					</td>
 				</tr>
 				<tr>
-					<th>방문수령<a
+					<th class="info_table">방문수령<a
 						href="javascript:window_open('../delivery_info/delivery_visits.htm','940','600','scrollbars=no','');"
 						class="ico_n_win"></a><br>
 					<span>(용산점, 가산점)</span></th>
-					<td colspan="2">오후 5시 30분까지 결제하면<br>
+					<td class="info_table" colspan="2">오후 5시 30분까지 결제하면<br>
 					<b>당일수령</b></td>
-					<td colspan="2">오후 3시까지 결제하면<br>
+					<td class="info_table" colspan="2">오후 3시까지 결제하면<br>
 					<b>당일수령</b></td>
 				</tr>
 				<tr>
-					<th class="last">퀵서비스<a
+					<th class="info_table" class="last">퀵서비스<a
 						href="javascript:window_open('../delivery_info/delivery_quick.htm','940','600','scrollbars=no','');"
 						class="ico_n_win"></a><br>
 					<span>(서울,경기 일부지역)</span></th>
-					<td class="last" colspan="2">오후 5시 30분까지 결제하면<br>
+					<td class="info_table" class="last" colspan="2">오후 5시 30분까지 결제하면<br>
 					<b>3시간 30분 이내 도착</b></td>
-					<td class="last" colspan="2">오후 4시까지 결제하면<br>
+					<td class="info_table" class="last" colspan="2">오후 4시까지 결제하면<br>
 					<b>3시간 30분 이내 도착</b></td>
 				</tr>
 			</tbody>
@@ -136,8 +136,8 @@
 			</colgroup>
 			<tbody>
 				<tr>
-					<th>교환/반품 신청기준</th>
-					<td>- 제품 수령 후 7일 이내에 교환/반품을 신청하실 수 있습니다.<br> - 제품포장상태(박스,
+					<th class="info_table">교환/반품 신청기준</th>
+					<td class="info_table">- 제품 수령 후 7일 이내에 교환/반품을 신청하실 수 있습니다.<br> - 제품포장상태(박스,
 						내용물등)이 완벽해야 하며 제품 발송시 동봉해드린 영수증이 있으셔야 합니다.<br> -교환 및 반품에 소요되는
 						운송비는 고객분께서 부담하셔야 됩니다. (색상 교환, 사이즈 교환, 모델 변경 등 포함)<br>
 					<br> <span class="co_red">※ 하지만 다음의 각 내용에 해당하는 경우에는
@@ -148,21 +148,21 @@
 					</td>
 				</tr>
 				<tr>
-					<th>A/S 운송비</th>
-					<td>- 제품을 수령한 날로부터 3개월 이내에 혹은 그 사실을 인지한 날로부터 30일 이내에 컴퓨존으로 접수
+					<th class="info_table">A/S 운송비</th>
+					<td class="info_table">- 제품을 수령한 날로부터 3개월 이내에 혹은 그 사실을 인지한 날로부터 30일 이내에 컴퓨존으로 접수
 						시 운송료는 판매자(컴퓨존)가 부담합니다.<br> - 고객 변심에 의해 반품하시는 경우 운송비는 전액 고객이
 						부담해야 합니다.
 					</td>
 				</tr>
 				<tr>
-					<th>상품 하자문의 및 기타 기준 사항</th>
-					<td>- 사용 중 발생한 하자의 환불/교환 등은 '공정거래위원회 소비자분쟁해결기준'에 준하여 처리됩니다.<br>
+					<th class="info_table">상품 하자문의 및 기타 기준 사항</th>
+					<td class="info_table">- 사용 중 발생한 하자의 환불/교환 등은 '공정거래위원회 소비자분쟁해결기준'에 준하여 처리됩니다.<br>
 						- 미성년자가 법정대리인의 동의 없이 구매계약을 체결한 경우, 미성년자와 법정대리인은 구매계약을 취소할 수 있습니다.
 					</td>
 				</tr>
 				<tr>
-					<th class="last">주의사항</th>
-					<td class="last">- 품질 경영 및 공산품안전관리법에 의거하여 안전검사대상공산품이나 어린이
+					<th class="info_table" class="last">주의사항</th>
+					<td class="info_table" class="last">- 품질 경영 및 공산품안전관리법에 의거하여 안전검사대상공산품이나 어린이
 						보호포장대상 공산품을 구매하실 경우에는 안전검사를 받은 제품이거나<br>어린이 보호포장 적용제품인지를
 						확인하시기 바랍니다.<br> - 전기용품안전관리법 및 전기통신기본법, 전파법에 의거하여 인증 대상 상품을
 						구매하실 경우, 안전인증 또는 형식승인,<br>전자파적합등록 제품인지 여부를 확인하시기 바랍니다.

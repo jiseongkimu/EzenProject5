@@ -54,8 +54,7 @@
 				<!-- search box -->
 				<div class="search">
 					<form action="">
-						<input class="search_input" type="text" name="" id=""
-							placeholder="검색어 입력...">&nbsp;&nbsp;
+						<input class="search_input" type="text" name="" id="">&nbsp;&nbsp;
 
 						<!-- 
 						<button type="submit">

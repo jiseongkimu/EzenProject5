@@ -18,9 +18,9 @@ public class OrderController {
 		return "user/order/order_info";
 	}
 	
-	@GetMapping("/purchase")
+	@GetMapping("/form")
 	public String write() {
-		return "user/order/order_purchase";
+		return "user/order/order_form";
 	}
 	
 	@GetMapping("/list")

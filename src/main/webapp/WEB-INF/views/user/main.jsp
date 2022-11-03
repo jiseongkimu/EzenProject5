@@ -29,26 +29,18 @@
 	<div class="carouselDiv" style="width: 100%; height: 700px;">
 		<div id="carouselExampleCaptions" class="carousel slide"
 			data-bs-ride="false" style="width: 1128px; margin: 0 auto;">
-			<div class="carousel">
-				<button type="button" data-bs-target="#carouselExampleCaptions"
-					data-bs-slide-to="0" class="active" aria-current="true"
-					aria-label="Slide 1"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions"
-					data-bs-slide-to="1" aria-label="Slide 2"></button>
-				<button type="button" data-bs-target="#carouselExampleCaptions"
-					data-bs-slide-to="2" aria-label="Slide 3"></button>
-			</div>
-
 			<div class="carousel-inner">
-
 				<!-- 1번 슬라이드 -->
 				<div class="carousel-item active" data-bs-interval="4000">
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_1.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
-							<h5>ThinkBook 16p G3 ARH 21</h5>
-							<p>완벽에 가까워진 ThinkBook 16p G3을 경험해보세용.</p>
+						<div class="carousel-caption d-none d-md-block opacity-75"
+							style="background-color: #000000;">
+							<div class="MICEGothic">
+								<h5>ThinkBook 16p G3 ARH 21</h5>
+								<p>완벽에 가까워진 ThinkBook 16p G3을 경험해보세용.</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -57,9 +49,13 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_2.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
-							<h5>나만을 위한 커스텀 키보드</h5>
-							<p>근데 이젠 컴퓨터는 키보드 안 팔잖아요??</p>
+						<div class="carousel-caption d-none d-md-block opacity-75"
+							style="background-color: #000000;">
+							<
+							<div class="MICEGothic">
+								<h5>나만을 위한 커스텀 키보드</h5>
+								<p>근데 이젠 컴퓨터는 키보드 안 팔잖아요??</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -68,9 +64,12 @@
 					<a href="${root }product/info"> <img
 						src="${root}image/slide_3.jpg" class="d-block w-100"
 						id="slide_image">
-						<div class="carousel-caption d-none d-md-block opacity-75" style="background-color : #000000; ">
-							<h5>베스트 아웃도어 제품</h5>
-							<p>NEPA, K2, Dynafit, North Face</p>
+						<div class="carousel-caption d-none d-md-block opacity-75"
+							style="background-color: #000000;">
+							<div class="MICEGothic">
+								<h5>베스트 아웃도어 제품</h5>
+								<p>NEPA, K2, Dynafit, North Face</p>
+							</div>
 						</div>
 					</a>
 				</div>
@@ -279,10 +278,10 @@
 
 		<!-- 배너 -->
 		<div class="cover p-3 bg-light mb-3" style="height: 50px;">
-			<div>
+			<div class="MICEGothic">
 				<B>eZen Computer 인기 상품</B>
 			</div>
-			<div>
+			<div class="MICEGothic">
 				<a href="#"> + 더보기</a>
 			</div>
 		</div>
@@ -292,30 +291,32 @@
 
 			<!--  상품 -->
 			<div class="col">
-				<!-- 같은 높이가 필요한 경우에는, 카드에 .h-100 클래스를 추가
+				<div class="testDiv2">
+					<!-- 같은 높이가 필요한 경우에는, 카드에 .h-100 클래스를 추가
 				Sass 에 $card-height: 100%를 설정하면, 클래스 추가 없이 기본적(항상)으로 같은 높이를 사용할 수 있다. -->
-				<a href="${root }product/info">
-					<div class="card h-100 border-0">
-						<img src="image/main_list_product_1.jpg" class="card-img-top"
-							alt="...">
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="${root }product/info">슈퍼 울트라 cpu</a>
-							</h5>
-							<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+					<a href="${root }product/info">
+						<div class="card h-100 border-0">
+							<img src="image/main_list_product_1.jpg" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="${root }product/info">슈퍼 울트라 cpu</a>
+								</h5>
+								<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
+				</div>
 			</div>
 		</div>
 		<!-- 상품 목록 끝 -->
 
 		<!-- 배너 -->
 		<div class="cover p-3 bg-light mb-3" style="height: 50px;">
-			<div>
+			<div class="MICEGothic">
 				<B>eZen Computer 인기 상품</B>
 			</div>
-			<div>
+			<div class="MICEGothic">
 				<a href="#"> + 더보기</a>
 			</div>
 		</div>
@@ -325,18 +326,20 @@
 
 			<!--  상품 -->
 			<div class="col mb-5">
-				<a href="${root }product/info">
-					<div class="card h-100 border-0">
-						<img src="image/main_list_product_1.jpg" class="card-img-top"
-							alt="...">
-						<div class="card-body">
-							<h5 class="card-title">
-								<a href="${root }product/info">슈퍼 울트라 cpu</a>
-							</h5>
-							<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+				<div class="testDiv2">
+					<a href="${root }product/info">
+						<div class="card h-100 border-0">
+							<img src="image/main_list_product_1.jpg" class="card-img-top"
+								alt="...">
+							<div class="card-body">
+								<h5 class="card-title">
+									<a href="${root }product/info">슈퍼 울트라 cpu</a>
+								</h5>
+								<p class="card-text">근데 왜 사진은 메인보드죠?</p>
+							</div>
 						</div>
-					</div>
-				</a>
+					</a>
+				</div>
 			</div>
 			<!-- 상품 끝 -->
 		</div>
@@ -348,15 +351,18 @@
 	<!-- 푸터 -->
 	<c:import url="/WEB-INF/views/include/footer_user.jsp" />
 
+	<!-- 플로팅 -->
 	<div class="floating">
 		<div class="floating_in">
 			<div class="list-group">
-				<a href="${root }cart/list"
-					class="list-group-item list-group-item-action" aria-current="true">장바구니</a>
-				<a href="#" class="list-group-item list-group-item-action">최근 본
-					상품</a> <a href="${root }support/list"
-					class="list-group-item list-group-item-action">문의하기</a> <a
-					href="#top" class="list-group-item list-group-item-action">TOP</a>
+				<div class="MICEGothic">
+					<a href="${root }cart/list"
+						class="list-group-item list-group-item-action" aria-current="true">장바구니</a>
+					<a href="#" class="list-group-item list-group-item-action">최근 본
+						상품</a> <a href="${root }support/list"
+						class="list-group-item list-group-item-action">문의하기</a> <a
+						href="#top" class="list-group-item list-group-item-action">TOP</a>
+				</div>
 			</div>
 		</div>
 	</div>
