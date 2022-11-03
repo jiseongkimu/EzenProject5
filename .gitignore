@@ -143,3 +143,4 @@ $RECYCLE.BIN/
 .project
 *.MF
 target/m2e-wtp/web-resources/META-INF/maven/EzenProject5/EzenProject5/pom.xml
+target/m2e-wtp/web-resources/META-INF/maven/EzenProject5/EzenProject5/pom.properties
