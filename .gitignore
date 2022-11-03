@@ -139,3 +139,8 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,java,eclipse
+.classpath
+.project
+*.MF
+target/m2e-wtp/web-resources/META-INF/maven/EzenProject5/EzenProject5/pom.xml
+target/m2e-wtp/web-resources/META-INF/maven/EzenProject5/EzenProject5/pom.properties
