@@ -9,6 +9,7 @@
 <title>Insert title here</title>
 <!-- header.jsp <head> 설정 불러오기 -->
 <c:import url="/WEB-INF/views/include/head_setting.jsp" />
+<!-- 깃이그노어 테스트 -->
 </head>
 
 <body>
