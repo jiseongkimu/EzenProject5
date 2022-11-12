@@ -30,6 +30,11 @@ public class UserController {
 	public String logout() {
 		return "user/users/logout";
 	}
+	
+	@GetMapping("/error404")
+	public String Error404() {
+		return "user/error_404";
+	}
 
 
 }
